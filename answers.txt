@@ -1,0 +1,13 @@
+• What is a gitignore file and what should it include for a Java project?
+
+Git ignore contains the file extensions which are required in the project but not required by source control.
+Java project needs git control since it contains many files.class, .project, etc. which are not required by source control. If we do not add source control then each time for git status it will show these files as modified but not committed and we don't want that. Git ignore is very useful in any project.
+
+• What does fast-forward in git mean?
+Fast forward means pointing the main branch to the current branch(for which the changes have been made. In this case, we do not merge the current branch with the main branch. we just simply point the main branch to the current branch. This we can do when we don't have ANY changes in the main branch. Only current branch changes are relevant and we want to take them as it to the main branch, this is called fast forwarding.
+
+• Why should you have different branches?
+If we have multiple team members working on different files then we must have separate branches for each team member to avoid conflicts. Having a separate branch for everyone makes life easier for the coder to include the changes and check which change is done by whom in the team.
+
+• In a project how many remote Git repositories do you usually have?
+Currently, we only have one public repository shared with everyone in the team and everyone has one private repository as well.
